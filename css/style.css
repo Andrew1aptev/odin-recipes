@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.link_recipe {
+    padding-top: 25px;
+    display: block;
+    text-align: center;
+}
