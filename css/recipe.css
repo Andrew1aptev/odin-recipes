@@ -5,13 +5,26 @@
     margin: 0;
     padding:0;
 }
+body{
+    background-image: url(../img/bg.svg);
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
+.main_page_wrapper{
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+img{
+    width: 240px;
+    height: 320px;
+}
 h1{
+    color: white;
     text-align: center;
-    padding-top: 50px;
+    font-size: 40px;
 }
 img{
     display: block;
@@ -19,30 +32,37 @@ img{
     padding-top: 50px;
 }
 .description{
+    font-size: 20px;
+    color: white;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
     max-width: 370px;
 }
 .link-recipe{
+    color: white;
     margin-top: 25px;
     display: block;
     text-align: center;
 }
 .ingridients_title{
+    color: white;
     padding-top: 50px;
     padding-left: 90px;
 }
 .ingridients_list{
+    color: white;
     padding-left: 65px;
 }
 .step_title{
+    color: white;
     padding-top: 25px;
     padding-left: 50px;
     font-size: 20px;
     font-weight: 600;
 }
 .step_text{
+    color: white;
     padding-top: 25px;
     max-width: 600px;
     padding-left: 50px;
