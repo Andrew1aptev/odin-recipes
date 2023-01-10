@@ -11,6 +11,7 @@
 }
 body{
     background-image: url(../img/bg.svg);
+    font-family: 'Roboto', sans-serif;
 }
 .main_page_wrapper{
     padding-top: 200px;
