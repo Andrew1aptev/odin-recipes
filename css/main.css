@@ -117,3 +117,26 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__link {
+  color: var(--main-font-color);
+  font-size: 25px;
+}

@@ -1,9 +1,16 @@
-body{
+body {
     font-family: var(--font-family);
     background-color: var(--main-bg-color);
 }
-.container{
+
+.container {
     max-width: 1130px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
 }
