@@ -102,7 +102,7 @@ legend {
 }
 
 :root {
-  --main-bg-color: #b5f0ff;
+  --main-bg-color: #51a3d5;
   --main-font-color: #000;
   --font-family: "Roboto", sans-serif;
 }
@@ -121,7 +121,6 @@ body {
 .title {
   font-size: 45px;
   font-weight: 700;
-  text-align: center;
 }
 
 .hero__list {
@@ -139,4 +138,68 @@ body {
 .hero__link {
   color: var(--main-font-color);
   font-size: 25px;
+}
+
+.recipe__img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.recipe__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.recipe__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.recipe__list {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.recipe__step {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.recipe__text {
+  max-width: 500px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.recipe__main-link {
+  color: blue;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.logo {
+  display: block;
+  background-image: url("../img/odin-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 124px;
+  width: 124px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
 }
